@@ -1,6 +1,6 @@
 import type {DirectiveBinding, ObjectDirective} from "vue";
 
-type ElementType = HTMLElement & { elementScrollPositionListener?: (event: Event) => void };
+type ElementType = HTMLElement & { elementScrollPositionListener?: () => void };
 
 enum ScrollInViewportEventType {
     InView = 'scroll-in-viewport-in-view',
