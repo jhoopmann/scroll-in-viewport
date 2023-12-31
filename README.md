@@ -1,4 +1,4 @@
-# Vue 3 Directive ScrollInViewwPort
+# Vue 3 Directive ScrollInViewPort
 
 Directive for detecting elements visibility in viewport while scrolling and onload.
 
